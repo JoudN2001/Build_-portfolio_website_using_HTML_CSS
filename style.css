@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -7,12 +8,14 @@
     box-sizing: border-box;
 
 }
-.Logo{
-   min-width: 25px;
-   max-width: 50px;
+
+.Logo {
+    min-width: 25px;
+    max-width: 50px;
 }
-header{
-    background-color: #f0f0f0;
+
+header {
+    background-color: rgba(15, 23, 42, 0.5);
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -22,13 +25,83 @@ header{
     align-items: center;
     text-decoration: none;
 }
-.navigation a{
+
+.navigation a {
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 400;
     padding-left: 25px;
-    color: #021631;
+    color: #ffffff;
 }
-.navigation a:hover{
+
+.navigation a:hover {
     color: #05377b;
+}
+
+section {
+    padding: 100px 175px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    background: url(backgrpund.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.main h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.main h2 span {
+    background: linear-gradient(to right, #67d3e0, #86e7f2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+.main h3 {
+    font-size: 1em;
+    font-weight: 400;
+    word-spacing: 10px;
+    letter-spacing: 2.5px;
+}
+
+.main-btn {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    margin-left: 0px;
+    padding: 17px;
+    border: #fff;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.7s ease
+}
+
+.Social-Media {
+    display: flex;
+    gap: 25px;
+}
+
+.Social-Media a {
+    color: #fff;
+    font-size: 1.55em;
+    text-decoration: none;
+}
+
+.main-btn:hover {
+    background-color: #fff;
+    color: #101118;
 }
