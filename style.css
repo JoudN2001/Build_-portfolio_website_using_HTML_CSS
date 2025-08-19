@@ -129,6 +129,7 @@ body {
     color: #fff;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -168,4 +169,82 @@ body {
 .description h3 {
     font-weight: 500;
     text-align: center;
+}
+
+.links {
+    padding-top: 20px;
+    background: linear-gradient(to right, #67d3e0, #86e7f2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: all 0.7s ease;
+}
+
+.links:hover {
+    background: linear-gradient(to right, #6773e0, #86e7f2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transform: scale(1.1);
+}
+
+#contact .description h3 {
+    background: linear-gradient(to right, #67d3e0, #86e7f2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+    font-size: 1.2em;
+    transition: all 0.7s ease;
+}
+
+#contact .description a {
+    text-decoration: none;
+}
+
+#contact .description h3:hover {
+    background: linear-gradient(to right, #6773e0, #86e7f2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transform: scale(1.1);
+}
+
+.contact .icon {
+    font-size: 4.5em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(15, 23, 42, 0.5);
+    z-index: 999;
+    padding: 12px 175px;
+    text-decoration: none;
+    text-align: center;
+    max-height: 4em;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 1em;
+    padding-top: 0.45em;
+    padding-right: 6.3em;
+}
+
+.footer-title span {
+    font-weight: 600;
+}
+
+.signature {
+    min-width: 30px;
+    max-width: 50px;
+}
+
+.footer span {
+    background: linear-gradient(to right, #678de0, #86b1f2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
